@@ -8,6 +8,8 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+
+
 /***header***/
 header {
     background-color: teal;
@@ -32,18 +34,6 @@ nav a {
     text-decoration: none;
 }
 
-#banner {
-    margin-top: 11rem;
-    background-color: rgba(0.5, 0.5, 0.5, 0.5);
-    color: coral;
-    padding: 2em;
-    text-align: center;
-}
-
-#banner h1 {
-    font-weight: 500;
-}
-
 @media only screen and (max-width: 642px) {
     header {
         height: 105px;
@@ -58,8 +48,45 @@ nav a {
         height: 85%;
         text-align: center;
     }
+}
 
+
+
+/***Main content***/
+#banner-container {
+    height: 24rem;
+}
+
+#banner {
+    margin-top: 11rem;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    color: coral;
+    padding: 2em;
+    text-align: center;
+}
+
+#banner h1 {
+    font-weight: 500;
+}
+
+#meet-up {
+    margin-left: 1em;
+}
+
+#meet-up h2 {
+    font-weight: 500;
+    color: yellow;
+    margin-bottom: .85em;
+}
+
+#meet-up p {
+    margin-top: 1em;
+    color: white;
+}
+
+@media only screen and (max-width: 642px) {
     #banner {
         margin-top: 3rem;
+        margin-bottom: 3rem;
     }
 }
