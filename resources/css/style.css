@@ -32,6 +32,18 @@ nav a {
     text-decoration: none;
 }
 
+#banner {
+    margin-top: 11rem;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    color: coral;
+    padding: 2em;
+    text-align: center;
+}
+
+#banner h1 {
+    font-weight: 500;
+}
+
 @media only screen and (max-width: 642px) {
     header {
         height: 105px;
@@ -45,5 +57,9 @@ nav a {
         align-content: space-between;
         height: 85%;
         text-align: center;
+    }
+
+    #banner {
+        margin-top: 3rem;
     }
 }
